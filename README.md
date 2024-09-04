@@ -11,11 +11,20 @@ Insertion of key-value pairs
 Removal of key-value pairs
 Retrieval of values based on keys
 Handling hash collisions
+
+
 SetList.h: This header file defines the SetList class, which implements a set using linked lists. The class supports typical set operations, including:
 Adding elements
 Removing elements
 Checking if an element exists
 Determining the size of the set
+
+
+
 mapset.cpp: The source file containing the implementation of the functions declared in MapArray.h and SetList.h. It includes the logic for managing the vector-based hash map and linked list-based set, as well as helper functions for collision resolution, traversal, and memory management.
+
+
 stopwords.txt: This file is used as an input for testing the set implementation by filtering out irrelevant words in a document.
+
+
 sample_doc.txt: This file is used as input for testing the hash map and set functionality, specifically for testing stopword filtering and word frequency counting.
